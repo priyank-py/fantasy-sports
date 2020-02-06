@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import CricketPlayerT20, CricketPlayerODI, CricketPlayerTest, CricketPlayerIPL
 
+
 @admin.register(CricketPlayerT20)
 class CricketPlayerT20Admin(admin.ModelAdmin):
     list_display = ['id', 'name',]
